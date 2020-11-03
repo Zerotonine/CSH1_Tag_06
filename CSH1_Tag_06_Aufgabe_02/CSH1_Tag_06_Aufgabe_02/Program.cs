@@ -49,16 +49,12 @@ namespace CSH1_Tag_06_Aufgabe_02
 
         static bool MitLeerzeichen(string s)
         {
-            if (s.Contains(" "))
-                return true;
-            return false;
+            return s.Contains(" ");
         }
 
         static bool SchonVorhanden(ref List<string> l, string s)
         {
-            if (l.Contains(s))
-                return true;
-            return false;
+            return l.Contains(s);
         }
     }
 }
